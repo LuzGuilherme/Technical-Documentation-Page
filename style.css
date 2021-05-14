@@ -67,3 +67,39 @@ hr {
     margin-bottom: 40px;
 }
 
+@media (max-width: 1600px) {
+
+    nav ul {
+        width: 16%;
+        height: 100%; /* Full height */
+    }
+    
+    nav li {
+        text-align: left;
+    }
+    
+    nav li a {
+        padding: 4px 8px;
+    }
+
+    code {
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+
+    nav {
+        display: none;
+    }
+
+    section {
+        padding-left: 0px;
+    }
+
+    code {
+        margin: 0px;
+        padding: 3px;
+    }
+}
+
